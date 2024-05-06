@@ -30,7 +30,7 @@ function prevSlide() {
         slideIndex = 1
     }
     if (slideIndex == 0) {
-        slideIndex = 14
+        slideIndex = 15
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
