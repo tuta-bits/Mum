@@ -55,3 +55,16 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+// Toggle audio controls
+function toggleControls() {
+    let audioElem = document.getElementById("myAudio");
+    if (audioElem.hasAttribute("controls")) {
+        //Remove controls
+        audioElem.removeAttribute("controls");
+    }
+    else {
+        //Add controls
+        audioElem.setAttribute("controls", "controls");
+    }
+}
