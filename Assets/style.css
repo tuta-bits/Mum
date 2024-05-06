@@ -277,6 +277,8 @@ h1.title {
   background-color: inherit;
   cursor: pointer;
   margin-top: 0.9%;
+  font-family: 'Ananda-Black';
+  font-size: 15px;
   }
   
   #sub-btn:hover {
