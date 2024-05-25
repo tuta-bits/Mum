@@ -286,3 +286,15 @@ h1.title {
   transform: translateY(0.5rem);
   transition: transform 170ms;
   }
+
+  #system {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #system > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
